@@ -20,7 +20,7 @@
 # limitations under the License.
 
 require 'kitchen'
-# require 'fog'
+require 'fog/core'
 require 'ohai'
 require_relative 'powervc_version'
 require_relative 'powervc/volume'
