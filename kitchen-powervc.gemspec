@@ -6,12 +6,12 @@ require 'kitchen/driver/powervc_version'
 Gem::Specification.new do |spec|
   spec.name          = 'kitchen-powervc'
   spec.version       = Kitchen::Driver::POWERVC_VERSION
-  spec.authors       = ['Benoit Creau']
-  spec.email         = ['benoit.creau@chmod666.org']
+  spec.authors       = ['Alayshia Knighten']
+  spec.email         = ['aknighten@chef.io']
   spec.description   = %q(A Test Kitchen Driver for Powervc)
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/chmod666org/kitchen-powervc'
-  spec.license       = 'Apache 2.0'
+  spec.homepage      = 'https://github.com/aaknighten/kitchen-powervc.git'
+  spec.license       = 'Apache-2.0'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = []
